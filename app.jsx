@@ -48,19 +48,16 @@ var Flickr = React.createClass({
 
 var Gallery = React.createClass({
   render: function() {
-    return <div className='row'>{this
-  .props
-  .pics
-  .map(function (pic) {
-    return <div className='col-sm-4'>
+    return <div className='row'>{this.props.pics.map(function (pic) {
+      return <div className='col-sm-4'>
         <div className='photo-wrapper'>
           <img className='img-responsive center-block' src={pic.media.m}/>
           <h5>{pic.title}</h5>
           <cite>{pic.author}</cite>
         </div>
       </div>;
-  })}
-      </div>;
+    })}
+  </div>;
   }
 });
 

@@ -3,19 +3,54 @@ body {
   font-family: 'Sigmar One', cursive;
   background-color: #F1F1F1;
 }
-form {
-  margin-bottom: 15px;
+
+
+Header {
+  background-image: url('img/collage.jpg');
+  height: 600px;
 }
-#search:focus {
-  border: 2px solid green;
+Header .overlay {
+  background-color: rgba(35, 133, 161,0.75);
+  height: 100%;
+  padding-top: 13vw;
+}
+Header .title {
+  color: white;
+  font-size: 4em;
+}
+Header .subtitle {
+  color: white;
+  font-size; 3em;
+}
+section {
+  min-height: 600px;
+}
+section form {
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+section #search:focus {
+  border: 2px solid rgb(35, 133, 161);
 }
 .photo-wrapper {
   font-family: 'Lato', sans-serif;
-  height: 300px;
+  height: 320px;
   padding: 10px;
   box-shadow: 0 0 15px rgba(0,0,0,0.5);
   margin-bottom: 15px;
+  overflow: hidden;
 }
 .photo-wrapper img{
   height: 200px;
+}
+
+Footer {
+  height: 150px;
+}
+Footer .overlay {
+  font-family: 'Lato', sans-serif;
+  background-color: rgba(35, 133, 161,0.75);
+  height: inherit;
+  color: white;
+  padding-top: 4vw;
 }

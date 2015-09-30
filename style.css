@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Sigmar+One|Lato);
+body {
+  font-family: 'Sigmar One', cursive;
+}
+form {
+  margin-bottom: 15px;
+}
+#search:focus {
+  border: 2px solid green;
+}
+.photo-wrapper {
+  font-family: 'Lato', sans-serif;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  margin-bottom: 15px;
+}
+.photo-wrapper img{
+  height: 200px;
+}
